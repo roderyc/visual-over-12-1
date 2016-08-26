@@ -94,7 +94,7 @@ class CellestialBody {
     pushMatrix();
     translate(x(), y());
     noStroke();
-    fill(c, map(woke(), 0, 1, 0, 255)); // map(sin(phase), -1, 1, map(woke(), 0, 1, 0, 50), map(woke(), 0, 1, 50, 255))
+    fill(c, map(sin(phase), -1, 1, map(woke(), 0, 1, 0, 50), map(woke(), 0, 1, 50, 255)));
     float currentSize = size();
     ellipse(0, 0, currentSize, currentSize);
     popMatrix();
