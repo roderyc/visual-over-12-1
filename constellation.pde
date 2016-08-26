@@ -36,7 +36,7 @@ class Constellation {
   }
   
   void update() {
-    phase += (0.005 * (1 + phaseAcc));
+    phase += (0.01 * (1 + phaseAcc));
     phaseAcc *= decay;
     
     for (CellestialBody body : bodies) {
