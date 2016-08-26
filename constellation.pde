@@ -2,7 +2,7 @@ color[] palette = {#FFFF73, #FFFF99, #FFFFBF};
 PVector origin = new PVector(0, 0);
 float rebound = 0.9;
 float decay = 0.8;
-float speed = 10;
+float speed = 15;
 float globalPhase = 0;
 
 class Constellation {
